@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #F8FAFC;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 40px auto;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #222;
+}
+
+.apply {
+  background: #2f80ed;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.apply:hover {
+  background: #1c60b3;
+}
+
+/* line */
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #bbb;
+}
+
+/* cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #cfd6df;
+  border: 1px solid #9aa4b2;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+  flex: 1;
+}
+
+.card p {
+  font-size: 13px;
+  color: #333;
+}
+
+.card span {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* sections */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #222;
+}
+
+.section p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
