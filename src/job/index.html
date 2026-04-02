@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3>MENU</h3>
+    <ul>
+      <li><a href="../latest job/index.html">Main</a></li>
+                    <li><a href="../jobsearch/index.html">JOB SEARCH</a></li>
+
+
+      <li class="active"><a href="../job/index.html">Admin</a></li>
+      <li>Manage Applicants</li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <div class="top-bar">
+      <h2>Job ad admin</h2>
+      <button class="create-btn">CREATE NEW</button>
+    </div>
+
+    <!-- Search -->
+    <input class="search" type="text" placeholder="Name, email, etc...">
+
+    <!-- Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Category</th>
+          <th>Level</th>
+          <th>Location</th>
+          <th>Phone</th>
+          <th>Application</th>
+          <th>Closing</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>C# Developer</td>
+          <td>Backend</td>
+          <td><span class="badge junior">Junior</span></td>
+          <td>India</td>
+          <td>55870900</td>
+          <td><span class="tag">Pradobhan F</span></td>
+          <td>29 nov 2023</td>
+          <td><button class="edit">EDIT</button></td>
+        </tr>
+
+        <tr>
+          <td>Javascript developer</td>
+          <td>Frontend</td>
+          <td><span class="badge middle">Middle</span></td>
+          <td>Kansas</td>
+          <td>55870900</td>
+          <td><span class="tag">Jin Yue</span></td>
+          <td>19 oct 2023</td>
+          <td><button class="edit">EDIT</button></td>
+        </tr>
+
+        <tr>
+          <td>Senior Frontend Developer</td>
+          <td>Frontend</td>
+          <td><span class="badge full">Full-stack</span></td>
+          <td>California</td>
+          <td>55870900</td>
+          <td><span class="tag">Lloyd J</span></td>
+          <td>18 dec 2023</td>
+          <td><button class="edit">EDIT</button></td>
+        </tr>
+
+        <tr>
+          <td>Backend Engineer</td>
+          <td>Backend</td>
+          <td><span class="badge senior">Senior</span></td>
+          <td>London</td>
+          <td>55870900</td>
+          <td><span class="tag">Catrin Mayo</span></td>
+          <td>21 sep 2023</td>
+          <td><button class="edit">EDIT</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <span>1</span>
+      <span class="active">2</span>
+      <span>3</span>
+      <span>4</span>
+    </div>
+
+  </main>
+</div>
+
+</body>
+</html>

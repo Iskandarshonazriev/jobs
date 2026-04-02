@@ -9,31 +9,30 @@
 
 <div class="wrapper">
 
-  <!-- Breadcrumb -->
-  <p class="breadcrumb">Main > Latest job > C# Developer</p>
+ 
 
-  <!-- Header -->
-  <div class="header">
-    <h1>Details</h1>
-    <div class="buttons">
-      <button class="cancel">CANCEL</button>
-      <button class="save">SAVE</button>
-    </div>
-  </div>
+ <p class="breadcrumb"><a href="../latest job/index.html">Main</a> ><a href="../latest job/cdeveloper/index.html"> Latest job</a> > <a href="#">C# Developer</a></p>
+
+ 
 
   <hr />
 
-  <!-- Form -->
-  <form class="form">
-
+  <form class="formEditDetails">
+ <div class="header">
+    <h1>Details</h1>
+    <div class="buttons">
+     <button type="button" class="cancel">CANCEL</button>
+      <button type="submit" class="save">SAVE</button>
+    </div>
+  </div><br>
     <div class="row">
-      <input type="text" placeholder="First name">
-      <input type="text" placeholder="Last name">
+      <input type="text" name="title" placeholder="title">
+      <input type="text" name="level" placeholder="level">
     </div>
 
     <div class="row">
-      <input type="email" placeholder="Email">
-      <input type="text" placeholder="Phone number">
+      <input type="text" name="category" placeholder="category">
+      <input type="text" name="city" placeholder="Phone number">
     </div>
 
     <input type="text" class="full" placeholder="Location">
@@ -43,6 +42,6 @@
   </form>
 
 </div>
-
+<script src="main.js"></script>
 </body>
 </html>
